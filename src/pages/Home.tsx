@@ -1,10 +1,11 @@
-
+import Navbar from "../components/Navbar"
+import Hero from "../components/Hero"
 
 
 const Home = ()=>{
     return (
-        <div>
-            Home is this
+        <div className="pt-[50px] px-[100px]">
+            
         </div>
     )
 }

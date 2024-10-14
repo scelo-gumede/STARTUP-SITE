@@ -1,10 +1,13 @@
 import { Outlet } from "react-router-dom"
-
+import Navbar from "../components/Navbar"
+import HeroAndNav from "../components/HeroAndNav"
 
 const BaseLayout = ()=>{
     return (
         <div>
-            <nav>Navbar</nav>
+            <nav className="font-all">
+                <HeroAndNav />
+            </nav>
             <Outlet />
             <footer>Footer</footer>
         </div>

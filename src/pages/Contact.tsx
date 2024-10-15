@@ -1,12 +1,13 @@
+import Form from "../components/Form"
 
 
 
 const Contact = ()=>{
 
     return (
-        <div>
-            this is the contact page 
-        </div>
+        <main>
+            <Form />
+        </main>
     )
 }
 

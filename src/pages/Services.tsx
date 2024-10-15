@@ -1,11 +1,12 @@
+import ServicesProjects from "../components/ServicesProjects"
 
 
 const Services = ()=>{
 
     return (
-        <div>
-            This is the services 
-        </div>
+       <main>
+        <ServicesProjects />
+       </main>
     )
 }
 

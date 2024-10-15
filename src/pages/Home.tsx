@@ -2,6 +2,7 @@ import Blog from "../components/Blog"
 import Hero from "../components/Hero"
 import Introduction from "../components/INtroduction"
 import OurWork from "../components/OurWork"
+import Testimonials from "../components/Testimonials"
 import WhoWeAre from "../components/WhoWeAre"
 import WhyChoose from "../components/WhyChoose"
 
@@ -14,6 +15,7 @@ const Home = ()=>{
             <OurWork />
             <Introduction />
             <WhyChoose />
+            <Testimonials />
             <Blog />
         </div>
     )

@@ -24,7 +24,7 @@ const router = createBrowserRouter([
                 path:"services",
                 element:<Services />
             },{
-                path:"platform",
+                path:"portfolio",
                 element:<Platform />
             },{
                 path:"team",

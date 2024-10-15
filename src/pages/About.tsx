@@ -1,12 +1,16 @@
+import Introduction from "../components/INtroduction"
+import WhoWeAre from "../components/WhoWeAre"
 
 
 
 
 const About = ()=>{
     return(
-        <div>
-            this is the about
-        </div>
+        <main>
+            <Introduction />
+            <WhoWeAre />
+           
+        </main>
     )
 }
 

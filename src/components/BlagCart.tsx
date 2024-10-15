@@ -8,19 +8,19 @@ interface BlogCartProps {
 }
 
 
-const BlagCart = (props:BlogCartProps) => {
+const BlogCart = (props:BlogCartProps) => {
     const{image,title,text}=props
   return (
-    <article>
-        <div>
+    <article className=" overflow-hidden flex flex-col gap-4">
+        <div className="rounded-tl-md rounded-tr-md overflow-hidden">
             <img src={image} />
         </div>
         <div>
-            <p>{title}</p>
-            <p>{text}</p>
+            <p className="font-semibold text-3xl ">{title}</p>
+            <p className="font-thin">{text}</p>
         </div>
     </article>
   )
 }
 
-export default BlagCart
+export default BlogCart

@@ -12,7 +12,12 @@ export default {
       colors:{
         "primary":"#3A5CE5",
         "secondary":"#00AFE0",
-      }
+      },
+      fontSize: {
+        bigFont: '3.75rem',   // Custom large font/spacing
+        mediumFont: '1.6rem', // Custom medium font/spacing
+        textFont: '1rem',     // Custom standard font/spacing
+      },
     },
   },
   plugins: [],

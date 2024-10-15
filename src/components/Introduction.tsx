@@ -9,13 +9,13 @@ const Introduction = () => {
             <img src={image} />
         </div>
         <div className="flex flex-col gap-9">
-            <p className="text-[26px] text-secondary font-bold">OUR INTRODUCTION </p>
-            <p className="font-bold text-6xl text-primary">WELCOME TO OUR DIGITAL AGENCY</p>
+            <p className="text-mediumFont text-secondary font-bold">OUR INTRODUCTION </p>
+            <p className="font-bold text-bigFont text-primary">WELCOME TO OUR DIGITAL AGENCY</p>
             <div className="text-[26px] text-secondary font-bold">
                 <p>WEB DEVELOPMENT</p>
                 <p>WEB DESIGN</p>
             </div>
-            <p className="text-xl">
+            <p className="text-textFont">
             We deliver compelling capabilities with meaningful outcomes through our unique IT solutions for businesses.
             </p>
         </div>

@@ -1,3 +1,4 @@
+import Blog from "../components/Blog"
 import Hero from "../components/Hero"
 import Introduction from "../components/INtroduction"
 import OurWork from "../components/OurWork"
@@ -13,6 +14,7 @@ const Home = ()=>{
             <OurWork />
             <Introduction />
             <WhyChoose />
+            <Blog />
         </div>
     )
 }

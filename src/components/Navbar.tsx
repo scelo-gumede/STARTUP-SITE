@@ -4,7 +4,7 @@ import NavlistItems from "./NavlistItems"
 
 const Navbar = () => {
   return (
-    <header className="pt-[50px] px-[100px]">
+    <header className="pt-[50px] px-[100px] text-primary">
         <section className="flex justify-between items-baseline">
             <div>
                 <p className="font-extrabold text-[26px]">IT COMPANY</p>
@@ -24,7 +24,7 @@ const Navbar = () => {
             </div>
 
         </section>
-        <div className="w-full py-5 h-[1px] bg-red-600"></div>
+        <div className="w-full my-1 h-[1px] bg-red-600"></div>
         <section>
             <NavlistItems />
         </section>

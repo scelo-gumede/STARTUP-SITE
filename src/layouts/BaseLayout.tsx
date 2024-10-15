@@ -1,15 +1,16 @@
 import { Outlet } from "react-router-dom"
 import Navbar from "../components/Navbar"
-import HeroAndNav from "../components/HeroAndNav"
+import Footer from "../components/footer"
+
 
 const BaseLayout = ()=>{
     return (
         <div>
             <nav className="font-all">
-                <HeroAndNav />
+               <Navbar />
             </nav>
             <Outlet />
-            <footer>Footer</footer>
+            <Footer />
         </div>
     )
 }

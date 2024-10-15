@@ -5,7 +5,7 @@ interface HeroProps {
 
 const Hero = (props: HeroProps) => {
     return (
-        <section>
+        <section className="text-secondary py-20">
             {props.text ? (
                 <div>{props.text}</div>
             ) : (

@@ -1,4 +1,4 @@
-import Introduction from "../components/INtroduction"
+import Introduction from "../components/Introduction"
 import WhoWeAre from "../components/WhoWeAre"
 
 
@@ -8,7 +8,7 @@ const About = ()=>{
     return(
         <main>
             <Introduction />
-            <WhoWeAre />
+            <WhoWeAre  value={false}/>
            
         </main>
     )

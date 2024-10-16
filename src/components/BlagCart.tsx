@@ -19,7 +19,7 @@ const BlogCart = (props:BlogCartProps) => {
         <div>
             <p className="font-semibold text-3xl ">{title}</p>
             <p>{date && (<span>{String(date)}</span>)}</p>
-            {!date && (<p className="font-thin">{text}</p>)}
+            {!date && (<p className="font-thin text-slate-400">{text}</p>)}
         </div>
     </article>
   )

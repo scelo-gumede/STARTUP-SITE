@@ -4,27 +4,27 @@ import NavlistItems from "./NavlistItems"
 
 const Navbar = () => {
   return (
-    <header className="pt-[50px] px-[100px] text-primary">
+    <header className="pt-[50px] px-[100px] ">
         <section className="flex justify-between items-baseline">
             <div>
-                <p className="font-extrabold text-[26px]">IT COMPANY</p>
-                <p className="font-medium text-[24px]">STARTUP AGENCY</p>
+                <p className="font-extrabold text-[26px]">REGULAR PAGES</p>
+                <p className="font-medium border border-solid border-pinkPrimary p-1 rounded-2xl text-pinkPrimary text-[24px]">STARTUP AGENCY</p>
             </div>
 
-            <div className="flex space-x-2">
+            <div className="flex font-thin space-x-2">
             <div>
-                <p className="font-extrabold text-[24px]">Call Us : (061) 012 1251</p>
+                <p className=" text-[24px]">Call Us : <span className="text-pinkPrimary">(061) 012 1251</span></p>
                 <p className="font-light text-[24px]">(Monday - Saturday)</p>
             </div>
             <div className="h-full w-1 text-brown-200"></div>
             <div>
-                <p className="font-extrabold text-[24px]">MAIL US FOR HELP</p>
-                <p className="font-light text-[24px]">info@email.com</p>
+                <p className=" text-[24px]">Mail Us For Help</p>
+                <p className="font-thin text-[24px]    text-pinkPrimary">info@email.com</p>
             </div>
             </div>
 
         </section>
-        <div className="w-full my-1 h-[1px] bg-red-600"></div>
+        <div className="w-full my-1 h-[1px] bg-black"></div>
         <section>
             <NavlistItems />
         </section>

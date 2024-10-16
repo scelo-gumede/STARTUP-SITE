@@ -7,11 +7,12 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        "all":["Inter"]
+        "all":["Opens Sans"]
       },
       colors:{
         "primary":"#3A5CE5",
         "secondary":"#00AFE0",
+        "pinkPrimary":"#FA66EB"
       },
       fontSize: {
         bigFont: '3.75rem',   // Custom large font/spacing

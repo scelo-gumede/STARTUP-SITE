@@ -11,10 +11,10 @@ const Hero = (props: HeroProps) => {
             ) : (
                 <div className="flex flex-col items-end space-y-2">
                     
-                    <p className="font-extrabold text-bigFont">
+                    <p className="text-black font-bold text-bigFont">
                         ATTRACT THE CLIENTS <br/> WHO WANT YOU FOR <br />WHAT YOU DO BEST
                     </p>
-                    <p className="text-mediumFont font-medium">
+                    <p className="text-mediumFont font-thin">
                         Bringing focus to your firm's positioning strategy
                     </p>
                     

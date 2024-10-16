@@ -24,7 +24,7 @@ const Navbar = () => {
             </div>
 
         </section>
-        <div className="w-full my-1 h-[1px] bg-black"></div>
+        <div className="w-full my-3 h-[1px] bg-black"></div>
         <section>
             <NavlistItems />
         </section>

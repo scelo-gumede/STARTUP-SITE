@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom';
 const NavlistItems = () => {
   return (
     <div className="flex justify-between">
-        <ul className="flex text-secondary font-thin space-x-1  text-[24px]">
+        <ul className="flex text-black space-x-1 font-bold text-[24px]">
             <li className='hover:bg-primary transition delay-75 ease-in hover:text-white p-2 rounded-md cursor-pointer'><NavLink to="/">Home</NavLink></li>
             <li className='hover:bg-primary transition delay-75 ease-in hover:text-white p-2 rounded-md cursor-pointer' ><NavLink to="about">About</NavLink></li>
             <li className='hover:bg-primary transition delay-75 ease-in hover:text-white p-2 rounded-md cursor-pointer' ><NavLink to="services">Service</NavLink></li>

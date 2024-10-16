@@ -4,8 +4,8 @@ import NavlistItems from "./NavlistItems"
 
 const Navbar = () => {
   return (
-    <header className="pt-[50px] px-[100px] ">
-        <section className="flex justify-between items-baseline">
+    <header className="pt-[50px]  px-[100px] ">
+        <section className="flex justify-between NavBar items-baseline">
             <div>
                 <p className="font-extrabold text-[26px]">REGULAR PAGES</p>
                 <p className="font-medium border border-solid border-pinkPrimary p-1 rounded-2xl text-pinkPrimary text-[24px]">STARTUP AGENCY</p>

@@ -17,7 +17,7 @@ const WhoWeAre = (props:WhoWeAreProps) => {
   }
 
   return (
-    <section className="flex gap-5 my-24">
+    <section style={{marginLeft:"-100px",marginRight:"-100px",paddingRight:"100px",paddingLeft:"100px"}} className="flex WhoWeAre gap-5 py-24">
         <div className="pl-24 flex flex-col gap-2">
             <p className="text-secondary text-mediumFont font-extrabold">WHO WE ARE</p>
             <p className="text-black  leading-tight text-bigFont font-medium">GET TO KNOW <br /> ABOUT IT COMPANY <br /> DIGITAL STARTUP <br /> AGENCY</p>

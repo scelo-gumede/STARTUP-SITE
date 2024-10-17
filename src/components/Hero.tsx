@@ -7,7 +7,7 @@ interface HeroProps {
 
 const Hero = (props: HeroProps) => {
     return (
-        <section style={{marginLeft:"-100px",marginRight:"-100px",paddingRight:"100px",paddingLeft:"100px"}} className="text-secondary  gradient-background pb-20">
+        <section style={{marginLeft:"-100px",marginRight:"-100px",paddingRight:"100px",paddingLeft:"100px"}} className="text-secondary   pb-20">
             {props.text ? (
                 <div>{props.text}</div>
             ) : (

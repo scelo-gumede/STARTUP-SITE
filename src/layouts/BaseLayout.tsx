@@ -1,11 +1,11 @@
 import { Outlet } from "react-router-dom"
 import Navbar from "../components/Navbar"
-import Footer from "../components/footer"
+import Footer from "../components/Footer"
 
 
 const BaseLayout = ()=>{
     return (
-        <div>
+        <div className="gradient-background">
             <nav className="font-all">
                <Navbar />
             </nav>

@@ -11,9 +11,6 @@ const NavlistItems = () => {
             <li className='hover:bg-primary transition delay-75 ease-in hover:text-white p-2 rounded-md cursor-pointer'><NavLink to="/">Home</NavLink></li>
             <li className='hover:bg-primary transition delay-75 ease-in hover:text-white p-2 rounded-md cursor-pointer' ><NavLink to="about">About</NavLink></li>
             <li className='hover:bg-primary transition delay-75 ease-in hover:text-white p-2 rounded-md cursor-pointer' ><NavLink to="services">Service</NavLink></li>
-            <li className='hover:bg-primary transition delay-75 ease-in hover:text-white p-2 rounded-md cursor-pointer' ><NavLink to="portfolio">Portfolio</NavLink></li>
-            <li className='hover:bg-primary transition delay-75 ease-in hover:text-white p-2 rounded-md cursor-pointer' ><NavLink to="blog">Blog</NavLink></li>
-            <li className='hover:bg-primary transition delay-75 ease-in hover:text-white p-2 rounded-md cursor-pointer' ><NavLink to="team">Team</NavLink></li>
             <li className='hover:bg-primary transition delay-75 ease-in hover:text-white p-2 rounded-md cursor-pointer' ><NavLink to="contact">Contacts</NavLink></li>
         </ul>
         <div className='space-x-5'>

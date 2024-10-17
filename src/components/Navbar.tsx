@@ -13,13 +13,13 @@ const Navbar = () => {
 
             <div className="flex font-thin space-x-2">
             <div>
-                <p className=" text-[24px]">Call Us : <span className="text-pinkPrimary">(061) 012 1251</span></p>
+                <p className=" text-[24px]">Call Us : <span className="">(061) 012 1251</span></p>
                 <p className="font-light text-[24px]">(Monday - Saturday)</p>
             </div>
             <div className="h-full w-1 text-brown-200"></div>
             <div>
                 <p className=" text-[24px]">Mail Us For Help</p>
-                <p className="font-thin text-[24px]    text-pinkPrimary">info@email.com</p>
+                <p className="font-thin text-[24px]    ">info@email.com</p>
             </div>
             </div>
 

@@ -71,3 +71,23 @@ export const services =[
         text:"Our team can easily develop an app for your business needs and purposes."
     },
 ]
+
+
+export const links = [
+    {
+        label:"Home",
+        to:"/"
+    },
+    {
+        label:"About",
+        to:"about"
+    },
+    {
+        label:"Service",
+        to:"services"
+    },
+    {
+        label:"Contact",
+        to:"contact"
+    }
+]

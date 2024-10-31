@@ -5,11 +5,15 @@ import GridViewOutlinedIcon from '@mui/icons-material/GridViewOutlined';
 
 const Introduction = () => {
   return (
-    <section className="px-[100px] gap-12 my-24  flex justify-center items-center">
-        <div className="rounded-md overflow-hidden">
-            <img src={image} />
+    <section className="lg:px-[100px] gap-12 my-24   lg:flex lg:justify-center lg:items-center   grid grid-cols-1" >
+
+
+        <div className="rounded-md order-2 overflow-hidden">
+            <img src={image} className="w-full h-full" />
         </div>
-        <div className="flex flex-col gap-6">
+
+
+        <div className="flex order-1 flex-col gap-6">
             <p className="text-mediumFont text-secondary font-bold">OUR INTRODUCTION </p>
             <p className="font-bold text-bigFont text-primary">WELCOME TO OUR DIGITAL AGENCY</p>
             <div className="text-[26px] text-secondary font-bold">
@@ -20,6 +24,8 @@ const Introduction = () => {
             We deliver compelling capabilities with meaningful outcomes through our unique IT solutions for businesses.
             </p>
         </div>
+
+
     </section>
   )
 }

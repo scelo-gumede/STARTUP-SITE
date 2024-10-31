@@ -4,9 +4,9 @@
 
 const Footer = () => {
   return (
-    <footer className="px-[100px] bg-primary py-5 font-extrabold text-white  text-[26px]">
-        <div className="flex justify-between">
-            <div className="">
+    <footer className="lg:px-[100px] px-[50px] md:px-[70px] bg-secondary py-5 font-extrabold text-white  text-[26px]">
+        <div className="flex flex-col gap-4 md:flex-row justify-between">
+            <div className="md:hidden lg:block">
                 <p>IT COMPANY</p>
                 <p className="font-thin mb-5">STARTUP AGENCY</p>
                 <p className="font-thin text-[20px] ">Looking for something in <br /> particular? Just use the <br /> handy search bar below <br /> and access hundreds of <br /> pages of Ignition content.</p>

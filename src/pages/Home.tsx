@@ -9,7 +9,7 @@ import WhyChoose from "../components/WhyChoose"
 
 const Home = ()=>{
     return (
-        <div className="pt-[50px] px-[100px]">
+        <div className="pt-[50px] px-[50px] md:px-[70px] lg:px-[100px]">
             <Hero />
             <WhoWeAre value={true} />
             <OurWork />

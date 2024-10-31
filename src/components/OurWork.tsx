@@ -27,8 +27,8 @@ const OurWork = () => {
     <section className="my-[100px] flex flex-col gap-8">
         <p className="text-center font-extrabold text-mediumFont text-secondary">OUR WORK</p>
         <p className="text-center font-bold text-bigFont leading-snug text-black">WE'RE DELIVERING ONLY EXCEPTIONAL QUALITY WORK</p>
-        <div className="flex overflow-hidden gap-2 mr-6   ">
-            
+
+        <div className="grid grid-cols-1 lg:grid-cols-3 overflow-hidden gap-2 mr-6 ">
            {cart.map((item,i)=>{
             return(
               <OurWorkCart {...item} key={i} />

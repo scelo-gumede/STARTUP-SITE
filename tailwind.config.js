@@ -16,7 +16,7 @@ export default {
       },
       fontSize: {
         bigFont: '3.75rem',   // Custom large font/spacing
-        mediumFont: '1.6rem', // Custom medium font/spacing
+        mediumFont: '2rem', // Custom medium font/spacing
         textFont: '1rem',     // Custom standard font/spacing
       },
     },

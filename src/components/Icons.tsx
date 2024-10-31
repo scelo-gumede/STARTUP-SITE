@@ -1,4 +1,3 @@
-import React from 'react';
 import coca from "../assets/coca-cola-logo-svgrepo-com.svg";
 import bb from "../assets/flag-bb-svgrepo-com.svg";
 import google from "../assets/google-svgrepo-com.svg";
